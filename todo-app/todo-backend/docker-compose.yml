@@ -1,0 +1,24 @@
+services:
+  app: # The name of the service, can be anything
+    image: express-server # Declares which image to use
+    build: . # Declares where to build if image is not found
+    ports: # Declares the ports to publish
+      - 3000:3000
+    depends_on: # Declares dependencies
+      - mongo
+      - redis
+  mongo:
+    image: mongo:6.0
+    ports:
+      - 27017:27017
+    volumes:
+      - mongo-data:/data/db
+  redis:
+    image: redis:7.0
+    ports:
+      - 6379:6379
+    volumes:
+      - redis-data:/data
+volumes:
+  mongo-data:
+  redis-data:
