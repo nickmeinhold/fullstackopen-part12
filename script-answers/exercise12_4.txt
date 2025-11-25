@@ -8848,3 +8848,70 @@ redis
 [36mmongo-1  | [0m{"t":{"$date":"2025-11-25T01:26:44.695+00:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"conn3","msg":"createCollection","attr":{"namespace":"todo-app.todos","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"a6364872-1f84-4554-a54a-e272a34175c6"}},"options":{}}}
 [36mmongo-1  | [0m{"t":{"$date":"2025-11-25T01:26:44.702+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"conn3","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"a6364872-1f84-4554-a54a-e272a34175c6"}},"namespace":"todo-app.todos","index":"_id_","ident":"index-1-4308687271825735048","collectionIdent":"collection-0-4308687271825735048","commitTimestamp":null}}
 [36mmongo-1  | [0m{"t":{"$date":"2025-11-25T01:27:23.380+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1764034043,"ts_usec":380057,"thread":"1:0xffff7f85ebc0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":6,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 16, snapshot max: 16 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 7"}}}
+[36mmongo-1  | [0m{"t":{"$date":"2025-11-25T01:28:23.390+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1764034103,"ts_usec":390696,"thread":"1:0xffff7f85ebc0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":6,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 18, snapshot max: 18 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 7"}}}
+[36mmongo-1  | [0m{"t":{"$date":"2025-11-25T01:29:23.399+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1764034163,"ts_usec":399537,"thread":"1:0xffff7f85ebc0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":6,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 20, snapshot max: 20 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 7"}}}
+[36mmongo-1  | [0m{"t":{"$date":"2025-11-25T01:30:23.410+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1764034223,"ts_usec":410659,"thread":"1:0xffff7f85ebc0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":6,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 24, snapshot max: 24 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 7"}}}
+[36mmongo-1  | [0m{"t":{"$date":"2025-11-25T01:31:23.417+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1764034283,"ts_usec":417731,"thread":"1:0xffff7f85ebc0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":6,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 26, snapshot max: 26 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 7"}}}
+[36mmongo-1  | [0m{"t":{"$date":"2025-11-25T01:32:23.430+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1764034343,"ts_usec":430460,"thread":"1:0xffff7f85ebc0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":6,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 28, snapshot max: 28 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 7"}}}
+[36mmongo-1  | [0m{"t":{"$date":"2025-11-25T01:33:23.440+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1764034403,"ts_usec":440783,"thread":"1:0xffff7f85ebc0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":6,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 30, snapshot max: 30 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 7"}}}
+[36mmongo-1  | [0m{"t":{"$date":"2025-11-25T01:34:23.454+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1764034463,"ts_usec":453978,"thread":"1:0xffff7f85ebc0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":6,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 32, snapshot max: 32 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 7"}}}
+[36mmongo-1  | [0m{"t":{"$date":"2025-11-25T01:35:23.467+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1764034523,"ts_usec":467252,"thread":"1:0xffff7f85ebc0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":6,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 34, snapshot max: 34 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 7"}}}
+[36mmongo-1  | [0m{"t":{"$date":"2025-11-25T01:36:23.476+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1764034583,"ts_usec":476386,"thread":"1:0xffff7f85ebc0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":6,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 36, snapshot max: 36 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 7"}}}
+[36mmongo-1  | [0m{"t":{"$date":"2025-11-25T01:37:23.490+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1764034643,"ts_usec":490063,"thread":"1:0xffff7f85ebc0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":6,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 38, snapshot max: 38 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 7"}}}
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36m[Kmongo-1 exited with code 137
+[0m[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[12;0H[2K[1;38;2;0;0;0;48;2;255;255;255mv[0m[2m View in Docker Desktop[0m[2m   [0m[1;38;2;0;0;0;48;2;255;255;255mo[0m[2m View Config[0m[2m   [0m[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m[0G8[1m[7m%[27m[1m[0m                                                                                                           ]2;nick@Nicks-M1-MacBook-Pro:~/git/courses/fullstackopen/part12/todo-app/todo-backend]1;../todo-backend[0m[27m[24m[J[01;32m➜  [36mtodo-backend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[7mcurl -s http://localhost:3000/todos | head -20[27m[46D[27m[32mc[27m[32mu[27m[32mr[27m[32ml[39m[27m [27m-[27ms[27m [27mh[27mt[27mt[27mp[27m:[27m/[27m/[27ml[27mo[27mc[27ma[27ml[27mh[27mo[27ms[27mt[27m:[27m3[27m0[27m0[27m0[27m/[27mt[27mo[27md[27mo[27ms[27m [27m|[27m [27m[32mh[27m[32me[27m[32ma[27m[32md[39m[27m [27m-[27m2[27m0[?1l>[?2004l
+]2;curl -s http://localhost:3000/todos | head -20]1;curl[{"_id":"692505d4905c9200127e4617","text":"Updated todo","done":true,"__v":0}][1m[7m%[27m[1m[0m                                                                                                           ]2;nick@Nicks-M1-MacBook-Pro:~/git/courses/fullstackopen/part12/todo-app/todo-backend]1;../todo-backend[0m[27m[24m[J[01;32m➜  [36mtodo-backend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[7mdocker exec -it todo-backend-mongo-1 mongosh[27m
+[K[A[29C[27m[32md[27m[32mo[27m[32mc[27m[32mk[27m[32me[27m[32mr[39m[27m [27me[27mx[27me[27mc[27m [27m-[27mi[27mt[27m [27mt[27mo[27md[27mo[27m-[27mb[27ma[27mc[27mk[27me[27mn[27md[27m-[27mm[27mo[27mn[27mg[27mo[27m-[27m1[27m [27mm[27mo[27mn[27mg[27mo[27ms[27mh[1B[K[?1l>[?2004l
+]2;docker exec -it todo-backend-mongo-1 mongosh]1;docker]0;mongosh mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	69250eabfae24df8544f87fd
+Connecting to:		[1m[32mmongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.5.8[0m
+Using MongoDB:		6.0.26
+[1m[33mUsing Mongosh[0m:		2.5.8
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+
+To help improve our products, anonymous usage data is collected and sent to MongoDB periodically (https://www.mongodb.com/legal/privacy-policy).
+You can opt-out by running the disableTelemetry() command.
+
+[1G[0J [1G[?2004h[1m[33m------[0m
+   [1m[33mThe server generated these startup warnings when booting[0m
+   2025-11-25T02:00:04.437+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2025-11-25T02:00:05.179+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2025-11-25T02:00:05.179+00:00: /sys/kernel/mm/transparent_hugepage/enabled is 'always'. We suggest setting it to 'never' in this binary version
+   2025-11-25T02:00:05.179+00:00: vm.max_map_count is too low
+[1m[33m------[0m
+
+[1G[0Jtest> [7Guse todo-app
+[1G[0J... [5G
+switched to db todo-app
+[1G[0Jtodo-app> [11Gdb.todos.insertOne({ text[33mtext[39m: [32m"[39m[32mI[39m[32mn[39m[32mc[39m[32mr[39m[32me[39m[32ma[39m[32ms[39m[32me[39m [32mt[39m[32mh[39m[32me[39m [32mn[39m[32mu[39m[32mm[39m[32mb[39m[32me[39m[32mr[39m [32mo[39m[32mf[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m[32ms[39m [32mi[39m[32mn[39m [32mm[39m[32my[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m [32mb[39m[32me[39m[32ml[39m[32mt[39m[32m"[39m, d[36mdo[39mdone: fals[33mfalse[39m })
+[1G[0J... [5G
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId([32m'69250eb8fae24df8544f87fe'[39m)
+}
+[1G[0Jtodo-app> [11Gdb.todos.find()
+[1G[0J... [5G
+[
+  {
+    _id: ObjectId([32m'692505d4905c9200127e4617'[39m),
+    text: [32m'Updated todo'[39m,
+    done: [33mtrue[39m,
+    __v: [33m0[39m
+  },
+  {
+    _id: ObjectId([32m'69250eb8fae24df8544f87fe'[39m),
+    text: [32m'Increase the number of tools in my tool belt'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jtodo-app> [11Gexit
+[?2004l[1m
+What's next:[0m
+    Try Docker Debug for seamless, persistent debugging tools in any container or image → [36mdocker debug todo-backend-mongo-1[0m
+    Learn more at https://docs.docker.com/go/debug-cli/
+[1m[7m%[27m[1m[0m                                                                                                           ]2;nick@Nicks-M1-MacBook-Pro:~/git/courses/fullstackopen/part12/todo-app/todo-backend]1;../todo-backend[0m[27m[24m[J[01;32m➜  [36mtodo-backend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[1m[31me[0m[39m[0m[32me[32mx[39m[1m[31me[1m[31mx[1m[31mi[0m[39m[0m[32me[0m[32mx[0m[32mi[32mt[39m[?1l>[?2004l
+]2;exit]1;exit
+Script done on Tue Nov 25 13:05:13 2025
