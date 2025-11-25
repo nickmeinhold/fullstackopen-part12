@@ -15570,4 +15570,248 @@ View build details: ]8;;docker-desktop://dashboard/build/desktop-linux/desktop-
 [1m
 What's next:[0m
     View a summary of image vulnerabilities and recommendations → [36mdocker scout quickview [0m
-[1m[7m%[27m[1m[0m                                                                                                           ]2;nick@Nicks-M1-MacBook-Pro:~/git/courses/fullstackopen/part12/todo-app/todo-frontend]1;..todo-frontend[0m[27m[24m[J[01;32m➜  [36mtodo-frontend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h
+[1m[7m%[27m[1m[0m                                                                                                           ]2;nick@Nicks-M1-MacBook-Pro:~/git/courses/fullstackopen/part12/todo-app/todo-frontend]1;..todo-frontend[0m[27m[24m[J[01;32m➜  [36mtodo-frontend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[1m[31mc[0m[39m[0m[32mc[32md[39m [4m.[24m[4m.[4m.[24m[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                                           ]2;nick@Nicks-M1-MacBook-Pro:~/git/courses/fullstackopen/part12/todo-app]1;..rt12/todo-app[0m[27m[24m[J[01;32m➜  [36mtodo-app[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[1m[31mc[0m[39m[0m[32mc[32md[39m hel   [1m[31mc[0m[39m[39m [0m[39m [1m[31mc[0m[39m[0m[32mc[32md[39m [4m.[24m[4m.[4m.[24m[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                                           ]2;nick@Nicks-M1-MacBook-Pro:~/git/courses/fullstackopen/part12]1;..ckopen/part12[0m[27m[24m[J[01;32m➜  [36mpart12[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[1m[31mc[0m[39m[0m[32mc[32md[39m [4mh[24m[4mh[4me[24m[4me[4mllo-front[1m[4m/[0m[24m[4mt[24m[0m[24m [?1l>[?2004l
+]2;cd hello-front]1;cd[1m[7m%[27m[1m[0m                                                                                                           ]2;nick@Nicks-M1-MacBook-Pro:~/git/courses/fullstackopen/part12/hello-front]1;..2/hello-front[0m[27m[24m[J[01;32m➜  [36mhello-front[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[7mdocker build -f ./dev.Dockerfile -t hello-front-dev .[27m[53D[27m[32md[27m[32mo[27m[32mc[27m[32mk[27m[32me[27m[32mr[39m[27m [27mb[27mu[27mi[27ml[27md[27m [27m-[27mf[27m [27m[4m.[27m[4m/[27m[4md[27m[4me[27m[4mv[27m[4m.[27m[4mD[27m[4mo[27m[4mc[27m[4mk[27m[4me[27m[4mr[27m[4mf[27m[4mi[27m[4ml[27m[4me[24m[27m [27m-[27mt[27m [27mh[27me[27ml[27ml[27mo[27m-[27mf[27mr[27mo[27mn[27mt[27m-[27md[27me[27mv[27m [27m[4m.[24m[?1l>[?2004l
+]2;docker build -f ./dev.Dockerfile -t hello-front-dev .]1;docker[1A[1B[0G[?25l[+] Building 0.0s (0/1)                                                               docker:desktop-linux
+[?25h[1A[0G[?25l[+] Building 0.2s (1/2)                                                               docker:desktop-linux
+[34m => [internal] load build definition from dev.Dockerfile                                              0.0s
+[0m[34m => => transferring dockerfile: 297B                                                                  0.0s
+[0m => [internal] load metadata for docker.io/library/node:20                                            0.1s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.3s (1/2)                                                               docker:desktop-linux
+[34m => [internal] load build definition from dev.Dockerfile                                              0.0s
+[0m[34m => => transferring dockerfile: 297B                                                                  0.0s
+[0m => [internal] load metadata for docker.io/library/node:20                                            0.3s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.5s (1/2)                                                               docker:desktop-linux
+[34m => [internal] load build definition from dev.Dockerfile                                              0.0s
+[0m[34m => => transferring dockerfile: 297B                                                                  0.0s
+[0m => [internal] load metadata for docker.io/library/node:20                                            0.5s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.6s (1/2)                                                               docker:desktop-linux
+[34m => [internal] load build definition from dev.Dockerfile                                              0.0s
+[0m[34m => => transferring dockerfile: 297B                                                                  0.0s
+[0m => [internal] load metadata for docker.io/library/node:20                                            0.6s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.8s (1/2)                                                               docker:desktop-linux
+[34m => [internal] load build definition from dev.Dockerfile                                              0.0s
+[0m[34m => => transferring dockerfile: 297B                                                                  0.0s
+[0m => [internal] load metadata for docker.io/library/node:20                                            0.8s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.9s (1/2)                                                               docker:desktop-linux
+[34m => [internal] load build definition from dev.Dockerfile                                              0.0s
+[0m[34m => => transferring dockerfile: 297B                                                                  0.0s
+[0m => [internal] load metadata for docker.io/library/node:20                                            0.9s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 1.0s (2/2)                                                               docker:desktop-linux
+[34m => [internal] load build definition from dev.Dockerfile                                              0.0s
+[0m[34m => => transferring dockerfile: 297B                                                                  0.0s
+[0m[34m => [internal] load metadata for docker.io/library/node:20                                            1.0s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Building 1.2s (4/8)                                                               docker:desktop-linux
+[34m => [internal] load build definition from dev.Dockerfile                                              0.0s
+[0m[34m => => transferring dockerfile: 297B                                                                  0.0s
+[0m[34m => [internal] load metadata for docker.io/library/node:20                                            1.0s
+[0m[34m => [internal] load .dockerignore                                                                     0.0s
+[0m[34m => => transferring context: 2B                                                                       0.0s
+[0m[34m => [1/4] FROM docker.io/library/node:20@sha256:ba36e9b2705008e63e354214f0e3011c528af9df2ca13ac2bd2c  0.0s
+[0m => [internal] load build context                                                                     0.1s
+ => => transferring context: 269.39kB                                                                 0.1s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 1.3s (6/8)                                                               docker:desktop-linux
+[34m => [internal] load build definition from dev.Dockerfile                                              0.0s
+[0m[34m => => transferring dockerfile: 297B                                                                  0.0s
+[0m[34m => [internal] load metadata for docker.io/library/node:20                                            1.0s
+[0m[34m => [internal] load .dockerignore                                                                     0.0s
+[0m[34m => => transferring context: 2B                                                                       0.0s
+[0m[34m => [1/4] FROM docker.io/library/node:20@sha256:ba36e9b2705008e63e354214f0e3011c528af9df2ca13ac2bd2c  0.0s
+[0m[34m => [internal] load build context                                                                     0.1s
+[0m[34m => => transferring context: 314.37kB                                                                 0.1s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                                                 0.0s
+[0m => [3/4] COPY . .                                                                                    0.2s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 1.4s (7/8)                                                               docker:desktop-linux
+[34m => [internal] load build definition from dev.Dockerfile                                              0.0s
+[0m[34m => => transferring dockerfile: 297B                                                                  0.0s
+[0m[34m => [internal] load metadata for docker.io/library/node:20                                            1.0s
+[0m[34m => [internal] load .dockerignore                                                                     0.0s
+[0m[34m => => transferring context: 2B                                                                       0.0s
+[0m[34m => [1/4] FROM docker.io/library/node:20@sha256:ba36e9b2705008e63e354214f0e3011c528af9df2ca13ac2bd2c  0.0s
+[0m[34m => [internal] load build context                                                                     0.1s
+[0m[34m => => transferring context: 314.37kB                                                                 0.1s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                                                 0.0s
+[0m[34m => [3/4] COPY . .                                                                                    0.2s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 1.5s (7/8)                                                               docker:desktop-linux
+[34m => => transferring dockerfile: 297B                                                                  0.0s
+[0m[34m => [internal] load metadata for docker.io/library/node:20                                            1.0s
+[0m[34m => [internal] load .dockerignore                                                                     0.0s
+[0m[34m => => transferring context: 2B                                                                       0.0s
+[0m[34m => [1/4] FROM docker.io/library/node:20@sha256:ba36e9b2705008e63e354214f0e3011c528af9df2ca13ac2bd2c  0.0s
+[0m[34m => [internal] load build context                                                                     0.1s
+[0m[34m => => transferring context: 314.37kB                                                                 0.1s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                                                 0.0s
+[0m[34m => [3/4] COPY . .                                                                                    0.2s
+[0m => [4/4] RUN npm install                                                                             0.2s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 1.7s (7/8)                                                               docker:desktop-linux
+[34m => => transferring dockerfile: 297B                                                                  0.0s
+[0m[34m => [internal] load metadata for docker.io/library/node:20                                            1.0s
+[0m[34m => [internal] load .dockerignore                                                                     0.0s
+[0m[34m => => transferring context: 2B                                                                       0.0s
+[0m[34m => [1/4] FROM docker.io/library/node:20@sha256:ba36e9b2705008e63e354214f0e3011c528af9df2ca13ac2bd2c  0.0s
+[0m[34m => [internal] load build context                                                                     0.1s
+[0m[34m => => transferring context: 314.37kB                                                                 0.1s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                                                 0.0s
+[0m[34m => [3/4] COPY . .                                                                                    0.2s
+[0m => [4/4] RUN npm install                                                                             0.3s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 1.8s (7/8)                                                               docker:desktop-linux
+[34m => => transferring dockerfile: 297B                                                                  0.0s
+[0m[34m => [internal] load metadata for docker.io/library/node:20                                            1.0s
+[0m[34m => [internal] load .dockerignore                                                                     0.0s
+[0m[34m => => transferring context: 2B                                                                       0.0s
+[0m[34m => [1/4] FROM docker.io/library/node:20@sha256:ba36e9b2705008e63e354214f0e3011c528af9df2ca13ac2bd2c  0.0s
+[0m[34m => [internal] load build context                                                                     0.1s
+[0m[34m => => transferring context: 314.37kB                                                                 0.1s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                                                 0.0s
+[0m[34m => [3/4] COPY . .                                                                                    0.2s
+[0m => [4/4] RUN npm install                                                                             0.5s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.0s (7/8)                                                               docker:desktop-linux
+[34m => => transferring dockerfile: 297B                                                                  0.0s
+[0m[34m => [internal] load metadata for docker.io/library/node:20                                            1.0s
+[0m[34m => [internal] load .dockerignore                                                                     0.0s
+[0m[34m => => transferring context: 2B                                                                       0.0s
+[0m[34m => [1/4] FROM docker.io/library/node:20@sha256:ba36e9b2705008e63e354214f0e3011c528af9df2ca13ac2bd2c  0.0s
+[0m[34m => [internal] load build context                                                                     0.1s
+[0m[34m => => transferring context: 314.37kB                                                                 0.1s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                                                 0.0s
+[0m[34m => [3/4] COPY . .                                                                                    0.2s
+[0m => [4/4] RUN npm install                                                                             0.6s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.1s (7/8)                                                               docker:desktop-linux
+[34m => => transferring dockerfile: 297B                                                                  0.0s
+[0m[34m => [internal] load metadata for docker.io/library/node:20                                            1.0s
+[0m[34m => [internal] load .dockerignore                                                                     0.0s
+[0m[34m => => transferring context: 2B                                                                       0.0s
+[0m[34m => [1/4] FROM docker.io/library/node:20@sha256:ba36e9b2705008e63e354214f0e3011c528af9df2ca13ac2bd2c  0.0s
+[0m[34m => [internal] load build context                                                                     0.1s
+[0m[34m => => transferring context: 314.37kB                                                                 0.1s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                                                 0.0s
+[0m[34m => [3/4] COPY . .                                                                                    0.2s
+[0m => [4/4] RUN npm install                                                                             0.8s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.3s (7/8)                                                               docker:desktop-linux
+[34m => => transferring dockerfile: 297B                                                                  0.0s
+[0m[34m => [internal] load metadata for docker.io/library/node:20                                            1.0s
+[0m[34m => [internal] load .dockerignore                                                                     0.0s
+[0m[34m => => transferring context: 2B                                                                       0.0s
+[0m[34m => [1/4] FROM docker.io/library/node:20@sha256:ba36e9b2705008e63e354214f0e3011c528af9df2ca13ac2bd2c  0.0s
+[0m[34m => [internal] load build context                                                                     0.1s
+[0m[34m => => transferring context: 314.37kB                                                                 0.1s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                                                 0.0s
+[0m[34m => [3/4] COPY . .                                                                                    0.2s
+[0m => [4/4] RUN npm install                                                                             0.9s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.4s (7/8)                                                               docker:desktop-linux
+[34m => => transferring dockerfile: 297B                                                                  0.0s
+[0m[34m => [internal] load metadata for docker.io/library/node:20                                            1.0s
+[0m[34m => [internal] load .dockerignore                                                                     0.0s
+[0m[34m => => transferring context: 2B                                                                       0.0s
+[0m[34m => [1/4] FROM docker.io/library/node:20@sha256:ba36e9b2705008e63e354214f0e3011c528af9df2ca13ac2bd2c  0.0s
+[0m[34m => [internal] load build context                                                                     0.1s
+[0m[34m => => transferring context: 314.37kB                                                                 0.1s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                                                 0.0s
+[0m[34m => [3/4] COPY . .                                                                                    0.2s
+[0m => [4/4] RUN npm install                                                                             1.1s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.6s (7/8)                                                               docker:desktop-linux
+[34m => => transferring dockerfile: 297B                                                                  0.0s
+[0m[34m => [internal] load metadata for docker.io/library/node:20                                            1.0s
+[0m[34m => [internal] load .dockerignore                                                                     0.0s
+[0m[34m => => transferring context: 2B                                                                       0.0s
+[0m[34m => [1/4] FROM docker.io/library/node:20@sha256:ba36e9b2705008e63e354214f0e3011c528af9df2ca13ac2bd2c  0.0s
+[0m[34m => [internal] load build context                                                                     0.1s
+[0m[34m => => transferring context: 314.37kB                                                                 0.1s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                                                 0.0s
+[0m[34m => [3/4] COPY . .                                                                                    0.2s
+[0m => [4/4] RUN npm install                                                                             1.2s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.7s (7/8)                                                               docker:desktop-linux
+[34m => => transferring dockerfile: 297B                                                                  0.0s
+[0m[34m => [internal] load metadata for docker.io/library/node:20                                            1.0s
+[0m[34m => [internal] load .dockerignore                                                                     0.0s
+[0m[34m => => transferring context: 2B                                                                       0.0s
+[0m[34m => [1/4] FROM docker.io/library/node:20@sha256:ba36e9b2705008e63e354214f0e3011c528af9df2ca13ac2bd2c  0.0s
+[0m[34m => [internal] load build context                                                                     0.1s
+[0m[34m => => transferring context: 314.37kB                                                                 0.1s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                                                 0.0s
+[0m[34m => [3/4] COPY . .                                                                                    0.2s
+[0m => [4/4] RUN npm install                                                                             1.4s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.9s (7/8)                                                               docker:desktop-linux
+[34m => => transferring dockerfile: 297B                                                                  0.0s
+[0m[34m => [internal] load metadata for docker.io/library/node:20                                            1.0s
+[0m[34m => [internal] load .dockerignore                                                                     0.0s
+[0m[34m => => transferring context: 2B                                                                       0.0s
+[0m[34m => [1/4] FROM docker.io/library/node:20@sha256:ba36e9b2705008e63e354214f0e3011c528af9df2ca13ac2bd2c  0.0s
+[0m[34m => [internal] load build context                                                                     0.1s
+[0m[34m => => transferring context: 314.37kB                                                                 0.1s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                                                 0.0s
+[0m[34m => [3/4] COPY . .                                                                                    0.2s
+[0m => [4/4] RUN npm install                                                                             1.5s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.9s (7/8)                                                               docker:desktop-linux
+[34m => => transferring dockerfile: 297B                                                                  0.0s
+[0m[34m => [internal] load metadata for docker.io/library/node:20                                            1.0s
+[0m[34m => [internal] load .dockerignore                                                                     0.0s
+[0m[34m => => transferring context: 2B                                                                       0.0s
+[0m[34m => [1/4] FROM docker.io/library/node:20@sha256:ba36e9b2705008e63e354214f0e3011c528af9df2ca13ac2bd2c  0.0s
+[0m[34m => [internal] load build context                                                                     0.1s
+[0m[34m => => transferring context: 314.37kB                                                                 0.1s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                                                 0.0s
+[0m[34m => [3/4] COPY . .                                                                                    0.2s
+[0m => [4/4] RUN npm install                                                                             1.5s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 3.1s (8/9)                                                               docker:desktop-linux
+[34m => [internal] load .dockerignore                                                                     0.0s
+[0m[34m => => transferring context: 2B                                                                       0.0s
+[0m[34m => [1/4] FROM docker.io/library/node:20@sha256:ba36e9b2705008e63e354214f0e3011c528af9df2ca13ac2bd2c  0.0s
+[0m[34m => [internal] load build context                                                                     0.1s
+[0m[34m => => transferring context: 314.37kB                                                                 0.1s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                                                 0.0s
+[0m[34m => [3/4] COPY . .                                                                                    0.2s
+[0m[34m => [4/4] RUN npm install                                                                             1.6s
+[0m => exporting to image                                                                                0.2s
+ => => exporting layers                                                                               0.2s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 3.2s (8/9)                                                               docker:desktop-linux
+[34m => [1/4] FROM docker.io/library/node:20@sha256:ba36e9b2705008e63e354214f0e3011c528af9df2ca13ac2bd2c  0.0s
+[0m[34m => [internal] load build context                                                                     0.1s
+[0m[34m => => transferring context: 314.37kB                                                                 0.1s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                                                 0.0s
+[0m[34m => [3/4] COPY . .                                                                                    0.2s
+[0m[34m => [4/4] RUN npm install                                                                             1.6s
+[0m => exporting to image                                                                                0.2s
+[34m => => exporting layers                                                                               0.2s
+[0m[34m => => writing image sha256:e7147803df08c642bfc398fd4184d7ea9865b337da709af3a07029e839a8c6f3          0.0s
+[0m => => naming to docker.io/library/hello-front-dev                                                    0.0s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 3.2s (9/9) FINISHED                                                      docker:desktop-linux
+[34m => [internal] load build definition from dev.Dockerfile                                              0.0s
+[0m[34m => => transferring dockerfile: 297B                                                                  0.0s
+[0m[34m => [internal] load metadata for docker.io/library/node:20                                            1.0s
+[0m[34m => [internal] load .dockerignore                                                                     0.0s
+[0m[34m => => transferring context: 2B                                                                       0.0s
+[0m[34m => [1/4] FROM docker.io/library/node:20@sha256:ba36e9b2705008e63e354214f0e3011c528af9df2ca13ac2bd2c  0.0s
+[0m[34m => [internal] load build context                                                                     0.1s
+[0m[34m => => transferring context: 314.37kB                                                                 0.1s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                                                 0.0s
+[0m[34m => [3/4] COPY . .                                                                                    0.2s
+[0m[34m => [4/4] RUN npm install                                                                             1.6s
+[0m[34m => exporting to image                                                                                0.2s
+[0m[34m => => exporting layers                                                                               0.2s
+[0m[34m => => writing image sha256:e7147803df08c642bfc398fd4184d7ea9865b337da709af3a07029e839a8c6f3          0.0s
+[0m[34m => => naming to docker.io/library/hello-front-dev                                                    0.0s
+[0m[?25h
+View build details: ]8;;docker-desktop://dashboard/build/desktop-linux/desktop-linux/jp4dek158jaybs7x54comwyj4\docker-desktop://dashboard/build/desktop-linux/desktop-linux/jp4dek158jaybs7x54comwyj4]8;;\
+[1m
+What's next:[0m
+    View a summary of image vulnerabilities and recommendations → [36mdocker scout quickview [0m
+[1m[7m%[27m[1m[0m                                                                                                           ]2;nick@Nicks-M1-MacBook-Pro:~/git/courses/fullstackopen/part12/hello-front]1;..2/hello-front[0m[27m[24m[J[01;32m➜  [36mhello-front[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[32md[39m[33md[33mo[39m[1m[31md[1m[31mo[1m[31mc[0m[39m[1m[31mc[1m[31mk[0m[39m[1m[31mk[1m[31me[0m[39m[0m[32md[0m[32mo[0m[32mc[0m[32mk[0m[32me[32mr[39m run -p 8000:80 todo-frontend                    [14D[39md[39mo[39mc[39mk[39me[39mr[8C[7m5173[27m[18D[32md[32mo[32mc[32mk[32me[32mr[39m[8C[27m5[27m1[27m7[27m3:[19D[39md[39mo[39mc[39mk[39me[39mr[13C[7m5173[27m[23D[32md[32mo[32mc[32mk[32me[32mr[39m[13C[27m5[27m1[27m7[27m3[?1l>[?2004l
+]2;docker run -p 5173:5173]1;dockerdocker: 'docker run' requires at least 1 argument
+
+Usage:  docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+
+See 'docker run --help' for more information
+[1m[7m%[27m[1m[0m                                                                                                           ]2;nick@Nicks-M1-MacBook-Pro:~/git/courses/fullstackopen/part12/hello-front]1;..2/hello-front[0m[27m[24m[J[01;31m➜  [36mhello-front[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[32mdocker[39m run -p 5173:5173[16Dbuild -f [4m.[4m/[4md[4me[4mv[4m.[4mD[4mockerfile[24m -t hello-front-dev [4m.[24m[53D[32mc[32md[39m[33P[12C     [24m                                  [39D[14D[32md[32mo[32mc[32mk[32me[32mr[39m build -f [4m./dev.Dockerfile[24m -t hello-front-dev [4m.[24m[46Drun -p 51[24m7[24m3[24m:[24m5[24m1[24m7[24m3[24m [24m [24m [24m [24m [24m [24m [24m [24m                     [24m [30D[23D[39m [39m [39m [39m [39m [39m                  [23D[32md[39m[33md[33mo[39m[1m[31md[1m[31mo[1m[31mc[0m[39m[1m[31mc[1m[31mk[0m[39m[1m[31mk[1m[31me[0m[39m[0m[32md[0m[32mo[0m[32mc[0m[32mk[0m[32me[32mr[39m run -p 5173:5173[9D8000:80 todo-frontend[21D5173:5173            [12D [24D[39md[39mo[39mc[39mk[39me[39mr[18C[24D[32md[32mo[32mc[32mk[32me[32mr[39m[18CC hello-front-dev[?1l>[?2004l
+]2;docker run -p 5173:5173 hello-front-dev]1;docker
+> hello-front@0.0.0 dev
+> vite --host
+
+3:58:27 AM [vite] (client) Re-optimizing dependencies because lockfile has changed
+
+  VITE v7.2.4  ready in 140 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://172.17.0.2:5173/
