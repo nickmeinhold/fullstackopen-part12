@@ -9216,3 +9216,31 @@ Node.js v25.1.0
 [33m[nodemon] watching path(s): *.*[39m
 [33m[nodemon] watching extensions: js,mjs,json[39m
 [32m[nodemon] starting `node ./bin/www`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:486
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:6379
+[90m    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)[39m
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_error [90m(/Users/nick/git/courses/fullstackopen/part12/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:342:14[90m)[39m
+    at Socket.<anonymous> [90m(/Users/nick/git/courses/fullstackopen/part12/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:223:14[90m)[39m
+[90m    at Socket.emit (node:events:508:28)[39m
+[90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m
+[90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)[39m {
+  errno: [33m-61[39m,
+  code: [32m'ECONNREFUSED'[39m,
+  syscall: [32m'connect'[39m,
+  address: [32m'127.0.0.1'[39m,
+  port: [33m6379[39m
+}
+
+Node.js v25.1.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
