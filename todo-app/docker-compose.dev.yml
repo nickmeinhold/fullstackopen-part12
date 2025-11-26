@@ -4,10 +4,39 @@ services:
       context: ./todo-frontend
       dockerfile: dev.Dockerfile
     volumes:
-      - ./todo-frontend:/app
-    ports:
-      - 5173:5173
+      - ./todo-frontend:/frontend
+    environment:
+      - VITE_BACKEND_URL=/api
     container_name: frontend
+
+  backend:
+    build:
+      context: ./todo-backend
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./todo-backend:/backend
+    environment:
+      - MONGO_URL=mongodb://root:example@mongo:27017/the_database?authSource=admin
+    container_name: backend
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+      MONGO_INITDB_DATABASE: the_database
+    volumes:
+      - ./todo-backend/mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
+      - ./todo-backend/mongo_data:/data/db
+
+  redis:
+    image: redis:7.0
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - ./todo-backend/redis_data:/data
+
   nginx:
     image: nginx:1.20.1
     volumes:
