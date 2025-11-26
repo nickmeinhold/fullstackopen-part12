@@ -1,0 +1,42 @@
+services:
+  frontend:
+    build:
+      context: ./phonebook-frontend
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./phonebook-frontend:/usr/src/app
+      - /usr/src/app/node_modules
+    container_name: frontend
+
+  backend:
+    build:
+      context: ./phonebook-backend
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./phonebook-backend:/usr/src/my-app/phonebook-backend
+      - /usr/src/my-app/phonebook-backend/node_modules
+    environment:
+      - MONGO_URL=mongodb://root:example@mongo:27017/the_database?authSource=admin
+    container_name: backend
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+      MONGO_INITDB_DATABASE: the_database
+    volumes:
+      - ./phonebook-backend/mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
+      - ./phonebook-backend/mongo_data:/data/db
+
+  nginx:
+    image: nginx:1.20.1
+    volumes:
+      - ./nginx.dev.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - 8080:80
+    container_name: reverse-proxy
+    depends_on:
+      - frontend # wait for the frontend container to be started

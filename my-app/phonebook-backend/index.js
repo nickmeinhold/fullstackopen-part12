@@ -1,10 +1,9 @@
-const functions = require("firebase-functions");
 const express = require("express");
 const app = express();
 const morgan = require("morgan");
 const cors = require("cors");
 require("dotenv").config();
-const Person = require("./models/person");
+const { Person } = require("./mongo");
 
 morgan.token("body", (req) => JSON.stringify(req.body));
 
@@ -111,12 +110,7 @@ const errorHandler = (error, request, response, next) => {
 app.use(unknownEndpoint);
 app.use(errorHandler);
 
-// Export as Cloud Function
-exports.api = functions.https.onRequest(app);
-
-// For local development
 const PORT = process.env.PORT || 3001;
-if (require.main === module) {
-  app.listen(PORT);
+app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
-}
+});

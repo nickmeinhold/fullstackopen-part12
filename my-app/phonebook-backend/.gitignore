@@ -2,3 +2,5 @@
 node_modules
 *.log
 .env
+mongo_data
+redis_data
